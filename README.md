@@ -1,9 +1,9 @@
 bsmicons
 ========
 
-Missing icons in the style of [](http://getbootstrap.com/components/ "Bootstrap") 
-and [](http://fortawesome.github.io/Font-Awesome/ "Font Awesome"). 
-Complete with build system based on [](http://fontcustom.com/ "Font Custom") .
+Missing icons in the style of [http://getbootstrap.com/components/]("Bootstrap") 
+and [http://fortawesome.github.io/Font-Awesome/]("Font Awesome"). 
+Complete with build system based on [http://fontcustom.com/]("Font Custom") .
 
 This project provides vector images (SVG) and a build system to create css ready icons sets from it.
 
