@@ -1,9 +1,9 @@
 bsmicons
 ========
 
-Missing icons in the style of ["Bootstrap"](http://getbootstrap.com/components/) 
-and ["Font Awesome"](http://fortawesome.github.io/Font-Awesome/). 
-Complete with build system based on ["Font Custom"](http://fontcustom.com/).
+Missing icons in the style of [Bootstrap](http://getbootstrap.com/components/) 
+and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). 
+Complete with build system based on [Font Custom](http://fontcustom.com/).
 
 This project provides vector images (SVG) and a build system to create css ready icons sets from it.
 
@@ -22,6 +22,7 @@ When you're on a Mac with Macports:
 
 	sudo port install fontforge
 	sudo port install rb-rubygems
+	sudo gem install fontcustom
 
 
 
