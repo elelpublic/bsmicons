@@ -3,9 +3,9 @@ bsmicons
 
 Missing icons in the style of Bootstrap and Fontawesome. Complete with build system based on Font Custom.
 
-http://getbootstrap.com/components/
-http://fortawesome.github.io/Font-Awesome/
-http://fontcustom.com/
+*   http://getbootstrap.com/components/
+*   http://fortawesome.github.io/Font-Awesome/
+*		http://fontcustom.com/
 
 This project provides vector images (SVG) and a build system to create css ready icons sets from it.
 
