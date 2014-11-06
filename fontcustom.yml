@@ -4,7 +4,7 @@
 #   `fontcustom help` or visiting <http://fontcustom.com>.
 # --------------------------------------------------------------------------- #
 
-font_name: fontcustom
+font_name: bsmicons
 font_design_size: 16
 font_em: 512
 font_ascent: 448
@@ -24,7 +24,7 @@ quiet: false
 
 input:
   vectors: src/svg         # required
-  templates: src/templates
+  templates: app/assets/fonts/fontcustom/templates
 
 
 # --------------------------------------------------------------------------- #
@@ -32,9 +32,9 @@ input:
 # --------------------------------------------------------------------------- #
 
 output:
-  fonts: build/fonts                              # required
-  css: build/cdd
-  preview: build/preview
+  fonts: build                              # required
+  css: build
+  preview: build
   #my-custom-template.yml: path/to/template/output
 
 
@@ -46,6 +46,6 @@ output:
 # --------------------------------------------------------------------------- #
 
 templates:
- - scss
+ - css
  - preview
  #- my-custom-template.yml

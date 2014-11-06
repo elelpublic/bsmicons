@@ -3,3 +3,9 @@ build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
+
+# Mac OS Finder
+.DS_Store
+
+# Font Custom
+.fontcustom-manifest.json
