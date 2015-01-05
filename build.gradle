@@ -1,8 +1,41 @@
-/**
+/*
 
-Todo:
+BSM/Projectile icons
 
-- pack
-- deploy to repo
+The legacy icon set are bitmaps.
+The work in progress are new vector based icons.
 
-*/
+ */
+
+
+apply plugin: 'java'
+apply plugin: 'ivy-publish'
+
+group = 'com.infodesire'
+version = '0.0.1'
+
+
+artifacts {
+	archives jar
+}
+
+publishing {
+	publications {
+		ivyJava( IvyPublication ) {
+			from components.java
+			artifact( jar ) {
+                type "source"
+                conf "runtime"
+            }
+		}
+	}
+	repositories {
+		ivy {
+			// there is a lot of legacy to adhere to here:
+	    	url 'file://s/repository/maven'
+	    	layout 'pattern' , {
+	            artifact '[organisation].[module]/[type]s/[artifact]-[revision](.[ext])'
+	        }
+	    }
+	}
+}
