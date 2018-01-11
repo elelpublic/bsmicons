@@ -12,7 +12,7 @@ apply plugin: 'java'
 apply plugin: 'ivy-publish'
 
 group = 'com.infodesire'
-version = '0.1.6'
+version = '0.1.7'
 
 
 artifacts {
